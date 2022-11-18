@@ -2,6 +2,9 @@
 * Amazon EKS is a managed service that helps make it easier to run Kubernetes. Through EKS, organizations can run Kubernetes without installing and operating a    Kubernetes control plane or worker nodes. EKS drastically simplifies Kubernetes deployment on AWS. <br/>
 * EKS scales, manages, and deploys containerized applications. It typically runs in the Amazon public cloud, but can also be deployed on premises. <br/>
 * EKS removes much of the time-sink (and headache) by handling various aspects of the infrastructure (auto-upgrades, patching, self-healing etc.). EKS removes development teams biggest time-sinks. <br/>
+* AWS EKS consists of two primary components :<br/>
+  * Control plane (master node) : AWS takes care of managing everything including scalability and high availability of the control plane <br/>
+  * Data plane is where application/workload runs.<br/>
 * [What is Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)<br/>
 * Following diagram illustrates the process of deploying a cluster on EKS - developer(s) instruct EKS to provision a cluster, cloud resources are provisioned in the background, and then connect to the Kubernetes cluster and run workloads.<br/>
  ![image](https://user-images.githubusercontent.com/92582005/202682530-c79b3d47-9cb0-4553-9109-5c726ee35d4b.png) <br/>
