@@ -1,5 +1,5 @@
 ## AWS EKS Introduction <br/><br/>
-* Amazon EKS is a managed service that helps make it easier to run Kubernetes. Through EKS, organizations can run Kubernetes without installing and operating a    Kubernetes control plane or worker nodes. EKS drastically simplifies Kubernetes deployment on AWS. <br/>
+* [Amazon EKS](https://aws.amazon.com/eks/) is a managed service that helps make it easier to run Kubernetes. Through EKS, organizations can run Kubernetes without installing and operating a    Kubernetes control plane or worker nodes. EKS drastically simplifies Kubernetes deployment on AWS. <br/>
 * EKS scales, manages, and deploys containerized applications. It typically runs in the Amazon public cloud, but can also be deployed on premises. <br/>
 * EKS removes much of the time-sink (and headache) by handling various aspects of the infrastructure (auto-upgrades, patching, self-healing etc.). EKS removes development teams biggest time-sinks. <br/>
 * AWS EKS consists of two primary components :<br/>
@@ -12,6 +12,7 @@
 * Eksctl provides the fastest and easiest way to create a new cluster with nodes for Amazon EKS.<br/>
 * [Getting started with AWS EKS with eksctl](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)<br/>
 * [Installing or updating eksctl](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)<br/>
+* [Amazon EKS features](https://aws.amazon.com/eks/features/)<br/>
 * Amazon EKS manages the control plane, but how much or little control customer(s) needs to manage the data plane depends on specific requirements. AWS gives three options to manage data plane nodes.<br/>
   * [Unmanaged worker nodes](https://docs.aws.amazon.com/eks/latest/userguide/worker.html)<br/>
   * [EKS Managed Nodegroups](https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html). Amazon EKS provides managed node groups with automated lifecycle management. This lets customer(s) to automatically create, update, or shut down nodes with one operation. EKS uses Amazon’s latest Linux AMIs optimized for use with EKS. <br/>
