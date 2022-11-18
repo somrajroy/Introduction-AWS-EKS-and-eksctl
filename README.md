@@ -14,5 +14,5 @@
 * [Installing or updating eksctl](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)<br/>
 * Amazon EKS manages the control plane, but how much or little control customer(s) needs to manage the data plane depends on specific requirements. AWS gives three options to manage data plane nodes.<br/>
   * [Unmanaged worker nodes](https://docs.aws.amazon.com/eks/latest/userguide/worker.html)<br/>
-  * [Managed Nodegroups](https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html). Amazon EKS provides managed node groups with automated lifecycle management. This lets customer(s) to automatically create, update, or shut down nodes with one operation. EKS uses Amazon’s latest Linux AMIs optimized for use with EKS. <br/>
+  * [EKS Managed Nodegroups](https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html). Amazon EKS provides managed node groups with automated lifecycle management. This lets customer(s) to automatically create, update, or shut down nodes with one operation. EKS uses Amazon’s latest Linux AMIs optimized for use with EKS. <br/>
   * [AWS Fargate](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html) : This fully take care of managing worker nodes. Amazon Fargate, a serverless container service, runs worker nodes & customers need not worry about managing the underlying server infrastructure.<br/>
