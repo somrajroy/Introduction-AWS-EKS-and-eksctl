@@ -5,7 +5,6 @@
 * AWS EKS consists of two primary components :<br/>
   * Control plane (master node) : AWS takes care of managing everything including scalability and high availability of the control plane <br/>
   * Data plane is where application/workload runs.<br/>
-* [What is Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)<br/>
 * Following diagram illustrates the process of deploying a cluster on EKS - developer(s) instruct EKS to provision a cluster, cloud resources are provisioned in the background, and then connect to the Kubernetes cluster and run workloads.<br/>
  ![image](https://user-images.githubusercontent.com/92582005/202682530-c79b3d47-9cb0-4553-9109-5c726ee35d4b.png) <br/>
 * eksctl : It is a 3rd party command line (CLI) tool for working with EKS clusters that automates many individual tasks.
@@ -19,4 +18,4 @@
   * [AWS Fargate](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html) : This fully take care of managing worker nodes. Amazon Fargate, a serverless container service, runs worker nodes & customers need not worry about managing the underlying server infrastructure.<br/><br/>
 #### Further references <br/>
 * [What is Amazon EKS?](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)<br/>
-* [Installing or updating eksctl](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html) <br/>
+
