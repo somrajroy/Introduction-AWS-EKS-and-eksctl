@@ -18,4 +18,5 @@
   * [AWS Fargate](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html) : This fully take care of managing worker nodes. Amazon Fargate, a serverless container service, runs worker nodes & customers need not worry about managing the underlying server infrastructure.<br/><br/>
 #### Further references <br/>
 * [What is Amazon EKS?](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)<br/>
+* [eksctl - The official CLI for Amazon EKS](https://eksctl.io/)<br/>
 
