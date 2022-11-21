@@ -7,8 +7,8 @@
   * Data plane is where application/workload runs.<br/>
 * Following diagram illustrates the process of deploying a cluster on EKS - developer(s) instruct EKS to provision a cluster, cloud resources are provisioned in the background, and then connect to the Kubernetes cluster and run workloads.<br/>
  ![image](https://user-images.githubusercontent.com/92582005/202682530-c79b3d47-9cb0-4553-9109-5c726ee35d4b.png) <br/>
-* eksctl : It is a 3rd party command line (CLI) tool for working with EKS clusters that automates many individual tasks.
-* Eksctl provides the fastest and easiest way to create a new cluster with nodes for Amazon EKS.<br/>
+* eksctl : It is a 3rd party command line (CLI) tool for working with EKS clusters that automates individual tasks.<br/>
+* Eksctl provides the fastest and easiest way to create a new cluster in Amazon EKS.<br/>
 * [Getting started with AWS EKS with eksctl](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)<br/>
 * [Installing or updating eksctl](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)<br/>
 * [Amazon EKS features](https://aws.amazon.com/eks/features/)<br/>
