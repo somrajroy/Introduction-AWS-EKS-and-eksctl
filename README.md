@@ -15,7 +15,7 @@
 * [Getting started with AWS EKS with eksctl](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)<br/>
 * [Installing or updating eksctl](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html)<br/>
 * [Amazon EKS features](https://aws.amazon.com/eks/features/)<br/>
-* [Amazon EKS pricing](https://aws.amazon.com/eks/pricing/) : AWS EKS costs $0.10 per hour per cluster for the master node (control plane). Additional charges will apply as customrs need to pay for the AWS resources necessary to run Kubernetes worker nodes (EC2, LB etc.)<br/>
+* [Amazon EKS pricing](https://aws.amazon.com/eks/pricing/) : AWS EKS costs $0.10 per hour (73.00 USD monthly) per cluster (us-west-2) for the master node (control plane). Additional charges will apply as customrs need to pay for the AWS resources necessary to run Kubernetes worker nodes (EC2, LB etc.)<br/>
 * Amazon EKS manages the control plane, but how much or little control customer(s) needs to manage the data plane depends on specific requirements. AWS gives three options to manage data plane nodes.<br/>
   * [Unmanaged worker nodes](https://docs.aws.amazon.com/eks/latest/userguide/worker.html)<br/>
   * [EKS Managed Nodegroups](https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html). Amazon EKS provides managed node groups with automated lifecycle management. This lets customer(s) to automatically create, update, or shut down nodes with one operation. EKS uses Amazon’s latest Linux AMIs optimized for use with EKS. <br/>
