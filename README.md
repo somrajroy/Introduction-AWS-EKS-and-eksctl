@@ -5,6 +5,7 @@
 * AWS EKS consists of two primary components :<br/>
   * Control plane (master node) : AWS takes care of managing everything including scalability and high availability of the control plane <br/>
   * Data plane is where application/workload runs.<br/>
+  ![image](https://user-images.githubusercontent.com/92582005/202979144-c03581c9-6c50-4975-9f8f-40d1788daac4.png) <br/>
 * Following diagram illustrates the process of deploying a cluster on EKS - developer(s) instruct EKS to provision a cluster, cloud resources are provisioned in the background, and then connect to the Kubernetes cluster and run workloads.<br/>
  ![image](https://user-images.githubusercontent.com/92582005/202682530-c79b3d47-9cb0-4553-9109-5c726ee35d4b.png) <br/>
 * eksctl : It is a 3rd party command line (CLI) tool for working with EKS clusters that automates individual tasks.<br/>
