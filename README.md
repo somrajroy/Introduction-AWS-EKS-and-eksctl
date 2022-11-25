@@ -1,4 +1,4 @@
-### Introduction : AWS EKS & eksctl <br/><br/>
+### Introduction : Managed Kubernetes, AWS EKS & eksctl <br/><br/>
 * [Amazon EKS](https://aws.amazon.com/eks/) is a fully managed kubernetes service that helps make it easier to run Kubernetes. Through EKS, organizations can run Kubernetes without installing and operating a Kubernetes control plane or worker nodes. EKS drastically simplifies Kubernetes deployment on AWS.It reduces the complexity of container deployment and management and provides automation. <br/>
 * EKS is  is a fully managed, cloud-based service to build, secure and maintain Kubernetes with AWS. It runs, deploys and operate Kubernetes clusters. <br/>
 * EKS scales, manages, and deploys containerized applications. It typically runs in the Amazon public cloud, but can also be deployed on premises. <br/>
