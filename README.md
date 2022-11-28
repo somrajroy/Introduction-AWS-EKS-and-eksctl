@@ -24,4 +24,5 @@
 #### Further references <br/>
 * [What is Amazon EKS?](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)<br/>
 * [eksctl - The official CLI for Amazon EKS](https://eksctl.io/)<br/>
+* [AWS Command Line Interface (AWS CLI): A Complete Guide](https://neal-davis.medium.com/aws-command-line-interface-aws-cli-a-complete-guide-5897d7f95d5d)<br/>
 
