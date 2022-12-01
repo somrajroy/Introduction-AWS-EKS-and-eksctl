@@ -3,7 +3,7 @@
 * EKS is  is a fully managed, cloud-based service to build, secure and maintain Kubernetes with AWS. It runs, deploys and operate Kubernetes clusters. <br/>
 * EKS scales, manages, and deploys containerized applications. It typically runs in the Amazon public cloud, but can also be deployed on premises. <br/>
 * EKS removes much of the time-sink (and headache) by handling various aspects of the infrastructure (auto-upgrades, patching, self-healing etc.). AWS handles all the management tasks for the Kubernetes control plane. This includes all security configurations, upgrades and patches. Because it is an Amazon service, EKS integrates with Elastic Load Balancing, AWS Identity and Access Management, AWS CloudTrail and Amazon Virtual Private Cloud. <br/>
-* Infrastructure management is smooth; AWS EKS elastically provisions resources, so customers/developers don’t need to worry about whether they’re being used effectively.<br/>
+* Infrastructure management is smooth; AWS EKS elastically provisions resources, so customers/developers don’t need to worry about whether they’re being used effectively. <br/>
 * In addition to Amazon services, admins can move pods to non-AWS environments without application code changes. Thus it helps to create a cloud agnostic/hybrid enviornment easily<br/>
 * AWS EKS consists of two primary components :<br/>
   * Control plane (master node) : AWS takes care of managing everything including scalability and high availability of the control plane <br/>
